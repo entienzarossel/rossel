@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.banner1 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.text-box {
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+}
+
+.text-box h1 {
+    margin-bottom: 40px;
+}
+
+.text-box p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80pxss;
+}
+
+.text-box span {
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: o;
+}
+
+.banner1 {
+    animation: slide1 12s linear infinite;
+}
